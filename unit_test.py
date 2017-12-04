@@ -16,7 +16,7 @@ class TestCase(unittest.TestCase):
     def test_isNotNull(self):
         self.assertTrue(isNotNull(10))
     def test_isEven(self):
-        self.assertTrue(isEven(5))
+        self.assertTrue(isEven(10))
 
 
 if __name__ == '__main__':
