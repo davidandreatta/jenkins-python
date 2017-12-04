@@ -5,10 +5,19 @@ def isNotNull(number):
         return True
     else:
         return False
+def isEven(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
 
 class TestCase(unittest.TestCase):
     def test_isNotNull(self):
-        self.assertTrue(isNotNull(0))
+        self.assertTrue(isNotNull(10))
+    def test_isEven(self):
+        self.assertTrue(isEven(5))
+
 
 if __name__ == '__main__':
     import xmlrunner
