@@ -8,7 +8,7 @@ def isNotNull(number):
 
 class TestCase(unittest.TestCase):
     def test_isNotNull(self):
-        self.assertTrue(isNotNull(10))
+        self.assertTrue(isNotNull(0))
 
 if __name__ == '__main__':
     import xmlrunner
