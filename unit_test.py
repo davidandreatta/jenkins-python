@@ -1,21 +1,37 @@
+"""
+Unit test file
+"""
+
 import unittest
 
 def isNotNull(number):
-    if number != 0:
-        return True
-    else:
-        return False
+    """
+    isNotNull
+    """
+    return bool(number)
+
 def isEven(number):
+    """
+    isNotNull
+    """
     if number % 2 == 0:
         return True
-    else:
-        return False
+    return False
 
 
 class TestCase(unittest.TestCase):
+    """
+    test class
+    """
     def test_isNotNull(self):
+        """
+        test isNotNull
+        """
         self.assertTrue(isNotNull(10))
     def test_isEven(self):
+        """
+        test isEven
+        """
         self.assertTrue(isEven(10))
 
 
