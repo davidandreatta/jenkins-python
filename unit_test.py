@@ -21,4 +21,4 @@ class TestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     import xmlrunner
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-report'))
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test'))

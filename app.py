@@ -1,9 +1,15 @@
-from flask import Flask, make_response, request, jsonify, json
-from flask import render_template, Markup, abort
+"""
+Main module app.py
+"""
+
+from flask import Flask
 
 
-app=Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def welcome():
+    """
+    Returns Welcome
+    """
     return 'Welcome'
